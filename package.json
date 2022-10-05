@@ -2,16 +2,21 @@
   "name": "@time-booking/functions-helper",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@time-booking"
   },
   "scripts": {
-    "test": "echo \"DEMO TEST\""
+    "build": "tsc",
+    "test": "echo \"DUMMY TEST\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/time-booking/functions-helper.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
