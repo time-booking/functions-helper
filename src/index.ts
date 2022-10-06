@@ -1,7 +1,7 @@
-function testFun(name: string, age: number): string {
-    return name + age;
-}
+import { validateUserAuth } from "./validateUserAuth";
+import { validateRequestData } from "./validateRequestData";
 
 export {
-    testFun
+    validateUserAuth,
+    validateRequestData
 }
