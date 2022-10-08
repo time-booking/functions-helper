@@ -10,7 +10,7 @@ import * as functions from "firebase-functions";
 export async function validateRequestData(
     requestClass: ClassConstructor<any>,
     request: unknown
-): Promise<void | Response> {
+): Promise<void> {
     /**
      * Throw https error when request data is not an object
      * Only needed when using onCall requests (express always sends request data as an object)
