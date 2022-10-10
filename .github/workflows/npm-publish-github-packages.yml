@@ -10,7 +10,6 @@ on:
 jobs:
   # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages#publishing-packages-to-the-npm-registry
   publish-npmjs:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
