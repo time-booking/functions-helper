@@ -3,10 +3,7 @@
   "version": "2.1.2",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@time-booking"
-  },
+  "types": "dist/index.d.ts"
   "scripts": {
     "build": "tsc",
     "test": "echo \"DUMMY TEST\""
